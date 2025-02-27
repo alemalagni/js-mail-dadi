@@ -9,7 +9,7 @@ console.log("Computer:" + numComputer);
 // Confronto
 if ( numPlayer > numComputer ) {
     console.log("Vince Giocatore")
-} else if ( numPlayer > numComputer ) {
+} else if ( numPlayer < numComputer ) {
     console.log("Vince Computer")
 } else {
     console.log("Parità")
