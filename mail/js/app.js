@@ -13,7 +13,7 @@ const mail = prompt("Inserire la propria mail:");
 let controllo = false;
 
 // Controllo mail
-for( let i = 0; i < lista.length; i++) {
+for( let i = 0; i < lista.length && controllo === false; i++) {
     if ( lista[i] === mail ) {
         controllo = true;
     }
