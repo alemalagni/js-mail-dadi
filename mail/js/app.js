@@ -18,3 +18,10 @@ for( let i = 0; i < lista.length || controllo === true ; i++) {
         controllo = true;
     }
 }
+
+// Output
+if ( controllo === true ) {
+    console.log("La sua mail è presente tra gli invitati")
+} else if ( controllo === false ) {
+    console.log("Mi dispiace ma la sua mail non è presente tra gli invitati")
+}
